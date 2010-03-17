@@ -1,0 +1,26 @@
+<lift:surround with="default" at="content">
+    <head>
+        <style type="text/css">
+            .dialog_box {
+                min-height: 100px;
+            }
+
+            .dialog_content {
+                height: 80px;
+            }
+
+            .dialog_actions {
+                height: 20px;
+                text-align: right;
+                border-top: 1px solid #909090;
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <lift:myDialog.dialog>
+        edit
+    </lift:myDialog.dialog>
+
+    <lift:myDialog.edit/>
+</lift:surround>
